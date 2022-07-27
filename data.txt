@@ -1,0 +1,15 @@
+Installing Process
+
+sudo apt get update
+sudo apt get install flex
+
+Running Process
+
+vi fileName.lex
+press esc
+press shift+:
+write wq
+press enter
+lex fileName.lex
+cc lex.yy.c
+./a.out
